@@ -3,7 +3,7 @@ Summary:	A Web-based monitor for ISC DHCP lease statistics
 Summary(pl):	Statystyki dla ISC DHCP na stronie WWW
 Name:		reportdhcp
 Version:	2.0b
-Release:	0.1
+Release:	1
 License:	GPL v2
 Group:		Applications/System
 Source0:	http://www.omar.org/opensource/reportdhcp/%{name}.pl-%{version}.tar.gz
