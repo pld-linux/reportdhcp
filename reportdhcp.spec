@@ -20,18 +20,18 @@ dhcpd.leases files.
 
 %description -l pl
 Reportdhcp.pl jest skryptem CGI napisanym w perlu. Wy¶wietla
-statystyki oraz wpisy dzier¿aw dla ISC DHCPD poprzez pasowanie pliku
+statystyki oraz wpisy dzier¿aw dla ISC DHCPD poprzez analizê pliku
 dhcpd.conf oraz dhcpd.leases.
 
 %prep
-%setup -q -c -n %{name}-%{version}
+%setup -q -c
 %patch0 -p1
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT/home/services/httpd/cgi-bin/reportdhcp/
+install -d $RPM_BUILD_ROOT/home/services/httpd/cgi-bin/reportdhcp
 
-install reportdhcp.pl $RPM_BUILD_ROOT/home/services/httpd/cgi-bin/reportdhcp/
+install reportdhcp.pl $RPM_BUILD_ROOT/home/services/httpd/cgi-bin/reportdhcp
 
 %clean
 rm -rf $RPM_BUILD_ROOT
