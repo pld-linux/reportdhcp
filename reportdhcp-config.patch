@@ -1,0 +1,18 @@
+--- ./reportdhcp.pl.org	Wed Jul 17 18:24:09 2002
++++ ./reportdhcp.pl	Mon Sep  9 18:35:25 2002
+@@ -28,13 +28,13 @@
+ 	# Change to your dhcp file and dhcpd.conf:
+ 	# (Default set to ISC DHCP defaults)
+ 
+-my $dhcpfile = "/var/state/dhcp/dhcpd.leases";
++my $dhcpfile = "/var/lib/dhcp/dhcpd.leases";
+ my $dhcpdconf = "/etc/dhcpd.conf";
+ 
+ 	# change to the relative (web) path to the cgi directory where
+ 	# reportdhcp.pl is located (usually /cgi-bin):
+ 
+-my $CGI = "/cgi-bin";
++my $CGI = "/cgi-bin/reportdhcp";
+ 
+ 	# change to reflect your system name
+ 
