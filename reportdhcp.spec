@@ -28,9 +28,9 @@ dhcpd.conf oraz dhcpd.leases.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT/home/httpd/cgi-bin/reportdhcp/
+install -d $RPM_BUILD_ROOT/home/services/httpd/cgi-bin/reportdhcp/
 
-install reportdhcp.pl $RPM_BUILD_ROOT/home/httpd/cgi-bin/reportdhcp/
+install reportdhcp.pl $RPM_BUILD_ROOT/home/services/httpd/cgi-bin/reportdhcp/
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -38,5 +38,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc CHANGELOG README
-%dir /home/httpd/cgi-bin/reportdhcp
-%attr(755,root,root) /home/httpd/cgi-bin/reportdhcp/reportdhcp.pl
+%dir /home/services/httpd/cgi-bin/reportdhcp
+%attr(755,root,root) /home/services/httpd/cgi-bin/reportdhcp/reportdhcp.pl
