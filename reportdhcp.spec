@@ -7,6 +7,7 @@ Release:	1
 License:	GPL v2
 Group:		Applications/System
 Source0:	http://www.omar.org/opensource/reportdhcp/%{name}.pl-%{version}.tar.gz
+# Source0-md5:	313f8757f1d7a60215c8baa8e338a70c
 Patch0:		%{name}-config.patch
 URL:		http://www.omar.org/opensource/reportdhcp/
 BuildRequires:	rpm-perlprov
