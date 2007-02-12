@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	A Web-based monitor for ISC DHCP lease statistics
-Summary(pl.UTF-8):   Statystyki dla ISC DHCP na stronie WWW
+Summary(pl.UTF-8):	Statystyki dla ISC DHCP na stronie WWW
 Name:		reportdhcp
 Version:	2.1
 Release:	1
