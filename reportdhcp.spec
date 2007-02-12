@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	A Web-based monitor for ISC DHCP lease statistics
-Summary(pl):	Statystyki dla ISC DHCP na stronie WWW
+Summary(pl.UTF-8):   Statystyki dla ISC DHCP na stronie WWW
 Name:		reportdhcp
 Version:	2.1
 Release:	1
@@ -18,9 +18,9 @@ Reportdhcp.pl is a CGI script written in perl. It displays statistics
 and lease entries for ISC DHCPD by parsing the dhcpd.conf and
 dhcpd.leases files.
 
-%description -l pl
-Reportdhcp.pl jest skryptem CGI napisanym w perlu. Wy¶wietla
-statystyki oraz wpisy dzier¿aw dla ISC DHCPD poprzez analizê pliku
+%description -l pl.UTF-8
+Reportdhcp.pl jest skryptem CGI napisanym w perlu. WyÅ›wietla
+statystyki oraz wpisy dzierÅ¼aw dla ISC DHCPD poprzez analizÄ™ pliku
 dhcpd.conf oraz dhcpd.leases.
 
 %prep
